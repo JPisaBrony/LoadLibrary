@@ -1,0 +1,14 @@
+embedding binary blogs into exe
+
+https://stackoverflow.com/questions/2627004/embedding-binary-blobs-using-gcc-mingw
+https://stackoverflow.com/questions/4158900/embedding-resources-in-executable-using-gcc
+
+dynamically load a dll
+https://stackoverflow.com/questions/8696653/dynamically-load-a-function-from-a-dll
+
+
+
+OTHER
+
+statically linking SDL
+https://stackoverflow.com/questions/17620884/static-linking-of-sdl2-libraries
