@@ -7,14 +7,11 @@ typedef void (__stdcall *f_sdl_quit)();
 extern char binary_SDL2_dll_start[];
 extern char binary_SDL2_dll_end[];
 
-extern char binary_myfile_txt_start[];
-extern char binary_myfile_txt_end[];
-
 int main(int argc, char* args[]) {
     char *sdl_dll;
     FILE *dll_file;
 
-    dll_file = fopen("mydll.txt", "w");
+    dll_file = fopen("mydll.dll", "wb");
 
     if(dll_file == NULL) {
         printf("can't write file");
